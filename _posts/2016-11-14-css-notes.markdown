@@ -1,7 +1,36 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2018-10-20 15:52:06 -0400
-categories: jekyll update
+title:  "CSS: Display, Position, Float Notes"
+date:   2016-11-14 15:52:06 -0400
+categories: uncategorized
 ---
 
+<h3>Display:</h3>
+
+<b>Block</b> – (Default) Preserve preset width/height, gets its own line.
+
+<b>Inline</b> – Position on the same line, set width/height to minimum in order to wrap around inner element
+
+<b>Inline-block</b> – Position on the same line, preserve preset width/height
+
+<b>None</b> – Doesn’t show up at all.
+
+<h3>Position:</h3>
+
+<b>Static</b> – Default, keeps the flow, etc. Also ignores position offsets (top, left, etc.)
+
+<b>Relative</b> – Keeps the flow, can offset it by its original static position
+
+<b>Absolute</b> – Out of the flow. Offsets are in respect to the parent div IF parent is relative or absolute, else, the offsets are in respect to the page itself. Ignores floats.
+
+<b>Fixed</b> – Completely out of the flow, offsets are in relation to the page itself, does not scroll, always stays in same position no matter scrolling. Ignores floats.
+
+<h3>Float:</h3>
+
+<b>Left</b> – Slams element over to the left. Preserves width/height. Slams same floated elements into each other on the same line. Float ignores display, but respects the relative position.
+
+<b>Right</b> – Same as left, but right.
+
+<b>None</b> – (Default), nothing really happens…
+
+<b>Clear</b> – (Left, Right, Both). Used in an element after a float, causes this element to be put on a different line than the previously defined element with parameter float value
