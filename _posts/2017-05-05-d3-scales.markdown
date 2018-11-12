@@ -1,7 +1,34 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2018-10-20 15:52:06 -0400
-categories: jekyll update
+title:  "D3 Scales"
+date:   2017-05-05 15:52:06 -0400
+categories: uncategorized
 ---
 
+<h2>Scales</h2>
+
+Defined as functions that take a range and domain. The range is the set of values that the domain will map to. Used for mapping data points to points on axis while maintaining optimal proportions. Can specify special things like padding, etc.
+
+{% highlight javascript %}
+scaleLinear().range([0, 100]).domain([0, d3.max(data, function(d) { return d.value })])
+{% endhighlight %}
+
+scaleLinear is used for mapping continuous domain values to integer values on a desired continuous range. Ex. If max of data is 50, a domain data value of 4 will map to the range 8. Used for things like bar height or scatter plot x/y placement.
+
+{% highlight javascript %}
+scaleOrdinal().range([0, 20, 40, 50, 60]).domain([“blue”, “green”, “red”, “yellow”, “brown”])
+{% endhighlight %}
+
+scaleOrdinal is used for mapping discrete domain values to integer values on a desired discrete range. Ex. blue goes to 0, green goes to 20, red goes to 40, etc.
+
+{% highlight javascript %}
+scaleQuantize().range([“blue”, “red”]).domain([0, 1])
+{% endhighlight %}
+
+scaleQuantize maps continuous domain to a discrete range. Splits the beginning and end of the domain into N equal parts where N is the number of elements in the range. Each part then maps to an element in the range. Ex. 0.25 => blue, 0.49 => blue, 0.51 => red, 0.75 => red
+
+{% highlight javascript %}
+scaleBand().rangeRound([0, width]).domain(data.map(function(d) { return d.name }));
+{% endhighlight %}
+
+RangeRound just rounds. scaleBand maps discrete domain to continuous range.Band is used for things where each data point needs to be mapped to a consistent element, best example is a column chart. Each bar needs to have the same width. We can also specify padding to separate the bars. calling the scale function with a parameter of some d.name will return the x/y position that data bar is suppose to be in, after taking in consideration data size and width specified to make sure everything is scaled correctly. bandwidth() can be used to get the calculated width of each bar. scalePoint is the equivalent of this, but used for scatterplots and always has bandwidth set to 0.

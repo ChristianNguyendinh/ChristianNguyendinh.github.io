@@ -1,7 +1,92 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2018-10-20 15:52:06 -0400
-categories: jekyll update
+title:  "HackerRank: XORs"
+date:   2017-01-10 15:52:06 -0400
+categories: uncategorized
 ---
+
+<h4><span style="text-decoration: underline; color: #000000;">XOR Properties:</span></h4>
+<ul>
+	<li><span style="color: #000000;">a ^ a = 0</span></li>
+	<li><span style="color: #000000;">a ^ 0 = a</span></li>
+	<li><span style="color: #000000;">a ^ b ^ a = (a ^ a) ^ b = 0 ^ b = b</span></li>
+	<li><span style="color: #000000;">a ^ ~a = (base 2) 111111111111111...111111</span></li>
+	<li><span style="color: #000000;">We will use ^ to represent XOR here</span></li>
+</ul>
+<h3><span style="text-decoration: underline; color: #000000;">Lonely Integer:</span></h3>
+<span style="color: #000000;">Task: You are given a list of integers. All integers occur in pairs except for one. Find this one integer.</span>
+
+<span style="color: #000000;">ex. Input: [1, 4, 4, 1, 2, 3, 5, 6, 5, 6, 3]      Output: 2</span>
+
+<span style="color: #000000;">I was stuck for a while on this, since I didn't know the ins and outs of XOR. After learning the properties above though, it was a breeze. Using the fact that a ^ b ^ a = b, the problem becomes simple. Just XOR all the elements with each other, and the result will be the integer that does not have a corresponding pair.</span>
+
+<!--more-->
+
+<span style="color: #000000;">ex. 1 ^ 4 ^ 4 ^ 1 ^ 2 ^ 3 ^ 5 ^ 6 ^ 5 ^ 6 ^ 3 </span>
+
+<span style="color: #000000;">= 1 ^ 1 ^ 2 ^ 3 ^ 3 ^ 4 ^ 4 ^ 5 ^ 5 ^ 6 ^ 6 = (1 ^ 1) ^ 2 ^ (3 ^ 3) ^ (4 ^ 4) ^ (5 ^ 5) ^ (6 ^ 6)</span>
+
+<span style="color: #000000;">= 0 ^ 2 ^ 0 ^ 0 ^ 0 ^ 0 = 2</span>
+
+<span style="color: #000000;">XOR has the commutative and associative properties which make this problem very simple. Note however, that this only works because we are guaranteed that each number will occur twice except the number we are looking for. If each number occurred three times except our desired number, this would not work, because a ^ a ^ a ^ b = a ^ b, not b.</span>
+
+ 
+<h3><span style="text-decoration: underline; color: #000000;">Maximizing XOR:</span></h3>
+<span style="color: #000000;">Task: Given two integers L and R, find the maximum value of A ^ B, where L <= A <= B <= R.</span>
+
+<span style="color: #000000;">ex. L = 10, R = 15. Maximum XOR is 7, with A = 10 (1010) and B = 15 (1111)</span>
+
+<span style="color: #000000;">I took an approach of looking at what bits could be changed to find an appropriate A and B. I saw it as two cases, either L and R had the same significant bit, or R had a higher significant bit.</span>
+
+<span style="color: #000000;"><strong>(1): </strong>R = 11101011, L = 11100000.</span>
+
+<span style="color: #000000;">We need to choose A and B such that L <= A <= B <= R. To keep this condition, we can only raise the green bits in L, and lower the red bits in R:</span>
+
+<span style="color: #000000;">R = 1110<span style="color: #ff0000;">1011</span>, L = 1110<span style="color: #00ff00;">0000</span></span>
+
+<span style="color: #000000;">We can change these bits however we want, and we will have an A and B such that L <= A <= B <= R. We can't go 1 bit further, because flipping that bit will result in a value greater than R. So now we need A and B such that A ^ B is the max out of all possible values for A and B.</span>
+
+<span style="color: #000000;">Lets look at what happens when we XOR some A and B.</span>
+
+<span style="color: #000000;">A = 1110wxyz, B = 1110stuv.   A ^ B = 0000abcd</span>
+
+<span style="color: #000000;">As you can see, the bits we cannot manipulate are automatically canceled out in the XOR. So whats the maximum sum? Well, we are left with abcd, so intuitively, the max of would be if abcd = 1111. But can we make that happen?</span>
+
+<span style="color: #000000;">As shown before, we can lower <span style="color: #ff0000;">1011<span style="color: #000000;">, and raise <span style="color: #00ff00;">0000<span style="color: #000000;">. And we know we want each bit index to be different, so the XOR results in a 1 being at that index. First is <span style="color: #ff0000;">1</span> and <span style="color: #00ff00;">0</span>, that will already result in a 1, so leave it. Next is <span style="color: #ff0000;">0</span> and <span style="color: #00ff00;">0</span>, well we cant lower the red <span style="color: #ff0000;">0</span>, so increase the green one. The rest of the bits will results in 1s when XORed so leave them. (Note that we change the bits we can manipulate without caring which is A or B until the end. Once we are finished we just choose the greater one to be B).</span></span></span></span></span>
+
+<span style="color: #000000;">Now we are left with <span style="color: #ff0000;">1011</span> and <span style="color: #00ff00;">0100<span style="color: #000000;">, which when XORed, equals 1111. So the max is 15.</span></span></span>
+
+<span style="color: #000000;"><strong>(2): </strong>R = 11110101, L = 00000010</span>
+
+<span style="color: #000000;">Similar to the first case, lets look at what bits we can change.</span>
+
+<span style="color: #000000;">R = <span style="color: #ff0000;">111101<span style="color: #ffff00;">0</span>1</span>, L = <span style="color: #00ff00;">000000<span style="color: #ffff00;">1</span>0</span></span>
+
+<span style="color: #000000;">As you can see, we have a much greater range of manipulating the bits, being able to manipulate all of them for L and R conditionally. Similar to the logic above, when XORing, we can be smart and raise or decrease the bits indexes that are the same, to get a XOR result of 11111111, which is the maximum possible result, since the rest of the bits to the left will be filled in with 0s, and cannot be manipulated without going above R.</span>
+
+<span style="color: #000000;">Thus an algorithm for this is to XOR L and R to get C. C will have the number of bits (n) you can manipulate. The largest XOR value will be if all these bits are 1s. So take that number of bits (n), and do (2 ** n) - 1 to get the decimal value of when all those bits are 1s. That was probably a verbose and terrible explanation. Im sorry :)</span>
+<h3><span style="text-decoration: underline; color: #000000;">SUM vs XOR:</span></h3>
+<span style="color: #000000;">Task: Given integer n, find the <span style="text-decoration: underline;">count</span> of all x : 0 <= x <= n, where n + x = n ^ x. </span>
+
+<span style="color: #000000;">First I thought about what makes XOR and Addition equal. Well, when adding a 0 and 1 bit you get 1, and when XORing a 0 and 1 bit, you get 1. When adding 0 and 0 bit you get 0, and when XORing a 0 and 0 bit, you get 0. The only difference is when adding a 1 and 1 bit you get 1 AND you carry over a 1, but XORing a 1 and 1 bit will get you 0.</span>
+
+<span style="color: #000000;">This carry over bit will mess up a ^ b = a + b, and make the two expressions not equal. Thus we need numbers for x in which that will not happen. Lets try it on a number.</span>
+
+<span style="color: #000000;">ex. n = 11101010</span>
+
+<span style="color: #000000;">For 11101010, we need all the 1s to be XORed with a 0, so we first construct our x with 000x0y0z. We have no other chose but to set these bit indexes to 0, thus the rest of the indexes we can play around with. <span style="color: #0000ff;">x y</span> and <span style="color: #0000ff;">z</span> can all be manipulated to be 0 or 1, and the result of XORing  or adding with the corresponding bit in n will be the same, due to the 'word truth table' we described above. </span>
+
+<span style="color: #000000;">11101010 ^ 000<span style="color: #0000ff;">0</span>0<span style="color: #0000ff;">0</span>0<span style="color: #0000ff;">0</span> = 11101010 + 000<span style="color: #0000ff;">0</span>0<span style="color: #0000ff;">0</span>0<span style="color: #0000ff;">0</span> = 11101010</span>
+
+<span style="color: #000000;">11101010 ^ 000</span><span style="color: #0000ff;">1</span><span style="color: #000000;">0</span><span style="color: #0000ff;">1</span><span style="color: #000000;">0</span><span style="color: #0000ff;">1</span><span style="color: #000000;"> = 11101010 + <span style="color: #000000;">000</span><span style="color: #000000;"><span style="color: #0000ff;">1</span><span style="color: #000000;">0</span><span style="color: #0000ff;">1</span><span style="color: #000000;">0</span><span style="color: #0000ff;">1</span></span> =  11111111</span>
+
+<span style="color: #000000;">11101010 ^ 000</span><span style="color: #0000ff;">1</span><span style="color: #000000;">0</span><span style="color: #0000ff;">0</span><span style="color: #000000;">0</span><span style="color: #0000ff;">1</span><span style="color: #000000;"> = 11101010 + <span style="color: #000000;">000</span><span style="color: #000000;"><span style="color: #0000ff;">1</span><span style="color: #000000;">0</span><span style="color: #0000ff;">0</span><span style="color: #000000;">0</span><span style="color: #0000ff;">1</span></span> = 11111011... and so on.</span>
+
+<span style="color: #000000;">As you can see, we can choose 0 or 1 for any of these bits and get an x such that n ^ x = n + x. But how do we get these bits for any number? Well what is in common about the blue bits? They are all zeroes in the original n bit. Thus if we find all zero bits in some number m, set the other one bits to 0, we can construct x(s) by changing the zero bit indexes to 0 or 1, that satisfy m ^ x = m + x.</span>
+
+<span style="color: #000000;">But how many x(s) are possible as the question asks? Well say we have y zero bits in some number n. Those zero bits can be 0s or 1s, up to us. So naturally, the number of x's that exist are all possible combinations of those bits being 0s and 1s. So go into the combinatorics world, and we get 2 ** y to be the number of combinations possible. Or maybe its actually permutations instead of combinations, idk.</span>
+
+<span style="color: #000000;">So how do you find this y? Find all the zero bits in a number. To do that? Well when a number has a least significant bit of 1, you know the number is odd, and when that bit is 0, you know the number is even. So, just keep shifting left and checking whether the number is even (if it is, increment a counter), until you get to the most significant bit, i.e when your number == 1.</span>
+
+<span style="color: #000000;">That took a lot longer than I though...</span>
 

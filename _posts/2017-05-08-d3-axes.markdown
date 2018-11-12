@@ -1,7 +1,35 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2018-10-20 15:52:06 -0400
-categories: jekyll update
+title:  "D3 Aces"
+date:   2017-05-08 15:52:06 -0400
+categories: uncategorized
 ---
 
+Since we already know how to use scales,  creating an axis is very easy. First:
+
+{% highlight javascript %}
+var yAxis = d3.axisLeft(scaleY)
+{% endhighlight %}
+
+This creates an axis generator for us using whatever scale function we previously defined. The generator is smart enough so that whichever type of band you pass in, it will correctly provide ticks and tick labels for the data. The number of ticks by default is determined for you. The axisLeft part tells d3 that this will be an axis on the left side of the chart, so it will be a vertical line, with tick parts sticking out on the left side. The counterparts are axisTop, axisRight, and axisBottom.
+
+There are other axis properties that allow for further customization
+
+.scale – for setting the scale of the axis
+
+.ticks, .tickArguments, .tickValues, .tickFormat – for customizing the tick labels
+
+.tickSize, .tickSizeInner, tickSizeOuter, .tickPadding – for customizing the ticks themselves
+
+Now to create our axis:
+
+{% highlight javascript %}
+svg.append(“g”)
+    .attr(“class”, “y axis”)
+    .attr(“transform”, “translate(-2,0)”)
+    .call(yAxis);
+{% endhighlight %}
+
+This will call the axis generator and add the proper html code to render the axis. We add a svg group to our container svg and give it the class y and the class axis for styling purposes. Then we move it 2 px to the left so that it doesn’t overlap data. Then we call the axis generator to create the axis for us.
+
+And that’s it. You can use the y class to individually style the y axis, or the axis class to style both axes.
