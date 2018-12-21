@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Migration from Wordpress"
-date:   2018-11-12 15:52:06 -0400
+date:   2018-10-20 15:52:06 -0400
 categories: uncategory
 ---
 
