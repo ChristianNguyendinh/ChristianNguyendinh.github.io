@@ -5,7 +5,7 @@ date:   2019-01-10 15:52:06 -0400
 categories: japanese
 ---
 
-Japanese has two tenses: perfective (similar to past tense) and imperfective (not past tense). You can represent other tenses, such as progressive tense, by combining different words together. But when dealing with conjugation lone words, only these two tenses exist.
+Japanese has two tenses: perfective (similar to past tense) and imperfective (not past tense). You can represent other tenses, such as progressive tense, by combining different words together. But when dealing with conjugating lone words, only these two tenses exist.
 
 In class we learned how to conjugate adjectivals, nominals, and verbals into perfective and imperfective tenses. But for verbals, we only learned the conjugation of distal (respectful) style verbals. So we'll go over everything here, but focus more on conjugating direct style verbals.
 
@@ -78,9 +78,9 @@ Ex. table for `不味い` (tastes bad)
 
 Not quite sure why our book calls them nominals, but they are basically the English equivalent of nouns. I think they do this to separate them from English style nouns, since some adjectives in English (such as pretty = `綺麗`) are represented as nominals in Japanese. Other sources just call these na-adjectives, even though they follow the same rules as nominals.
 
-<u>Distal Style</u>
-
 Anyway, conjugating these aren't that bad. N = Nominal.
+
+<u>Distal Style</u>
 
 <b>Imperfective</b> - `N + です`
 
@@ -106,7 +106,7 @@ Ex. table for `綺麗` (pretty)
 <tr>
     <th>Negative</th>
     <td>綺麗じゃないです<br />OR<br />綺麗じゃありません<br /><br /><i>"[It] is not pretty"</i></td>
-    <td>綺麗じゃなかったです<br />OR<br />綺麗じゃなかったです<br /><br /><i>"[It] was not pretty"</i></td>
+    <td>綺麗じゃなかったです<br />OR<br />綺麗じゃありませんでした<br /><br /><i>"[It] was not pretty"</i></td>
 </tr>
 </table>
 
@@ -150,7 +150,7 @@ Verbals are pretty weird.
 
 <u>Distal Style</u>
 
-VS = Verbal Stem. We haven't learned this term in class yet, but the verbal stem will represent the i-form of the verbal. Taking the dictionary form of the verbal, if it is an Ichidan verbal, drop the ending `る`. If it is a Godan verbal, change the ending kana to the corresponding `い` sound equivalent. Ex. `い` -> `い`, `る` -> `り`, `く` -> `き`, `ち` -> `つ`, etc.
+VS = Verbal Stem. We haven't learned this term in class yet, but the verbal stem will represent the i-form of the verbal. Taking the dictionary form of the verbal, if it is an Ichidan verbal, drop the ending `る`. If it is a Godan verbal, change the ending kana to the corresponding `い` sound equivalent. Ex. `う` -> `い`, `る` -> `り`, `く` -> `き`, `ち` -> `つ`, etc. All dictionary form verbals end in an `う` sound kana.
 
 Ex. 
 
@@ -225,7 +225,7 @@ Ex. table for `買う` (to buy) - godan
 </tr>   
 <tr>
     <th>Negative</th>
-    <td>買わまない<br /><br /><i>"[I] do not buy [it]"</i></td>
+    <td>買わない<br /><br /><i>"[I] do not buy [it]"</i></td>
     <td>買わなかった<br /><br /><i>"[I] did not buy [it]"</i></td>
 </tr>
 </table>
