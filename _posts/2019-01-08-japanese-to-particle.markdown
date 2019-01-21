@@ -66,6 +66,11 @@ Can be used with onomatopoetic words.
 `犬がワンワンと吠えている` - "The dog is crying 'bark bark'"
 
 <hr />
+<h4><u>As a conditional</u></h4>
+
+See the <a href="{{ site.baseurl }}{% post_url 2019-01-20-japanese-conditionals %}">01/20/19 post</a>
+
+<hr />
 <h4><u>with なる</u></h4>
 
 Add nominal plus to combined with `なる` (to become / reach / attain) (`となる`) to indicate something reaches a goal / new state. Used to indicate a change or result.
