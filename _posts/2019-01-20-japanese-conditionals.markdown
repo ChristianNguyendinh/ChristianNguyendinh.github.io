@@ -103,3 +103,10 @@ Use:
 `もしよかったら、一緒映画を見に行きませんか` - "If by any chance it's ok, would you like to go and see a movie together?"
 
 `もし時間がないなら、明日もいいよ` - "If, for some reason, there isn't time (you don't have time) (like you mentioned earlier), tomorrow is also good"
+
+<hr />
+<h3>Other Notes</h3>
+
+Also I've found that these conditionals are often used to represent "when". Like:
+
+`学校が終わったら...` - "When school ends" / "If school ends"
