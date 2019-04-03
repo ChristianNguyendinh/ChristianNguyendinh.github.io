@@ -5,7 +5,7 @@ date:   2019-04-01 15:52:06 -0400
 categories: japanese
 ---
 
-We haven't learned this in class yet. Apparently it is used quite a bit.
+We haven't learned this in class yet. Apparently it is used quite a bit, encouraged actually. Unlike in English where passive voice ("being") is discouraged.
 
 Sources:
 
@@ -41,6 +41,8 @@ It appears that `に` is used for the actual subject, while the normal subject p
 `明日の会議に行かれるんですか`- "Are you going to tomorrow's meeting?". Lit: "It it that tomorrow's meeting will be went to by you?". More polite.
 
 I think you will need to do a lot of external reading to internalize which scenarios to use this in.
+
+After some practice, it feels like whenever I use passive in English, either the subject doesn't matter, or the object needs to be emphasised.
 
 
 <br />
