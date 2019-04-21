@@ -1,0 +1,75 @@
+---
+layout: post
+title:  "唐揚げ"
+date:   2019-01-16 15:52:06 -0400
+categories: food
+---
+<hr />
+
+<b>Source:</b>
+
+
+<a href="https://www.justonecookbook.com/karaage/" target="_blank">Source</a>
+
+<hr />
+
+<b>Tools:</b>
+
+<ul>
+    <li>Pot or pan with high walls</li>
+    <li>Tongs and a drying rack would be a lot better</li>
+</ul>
+
+<hr />
+
+<b>Ingredients:</b>
+
+<ul>
+    <li>鶏 もも/胸/手羽先</li>
+    <li>片栗粉</li>
+    <li>粉</li>
+    <li>料理酒</li>
+    <li>味醂</li>
+    <li>お砂糖</li>
+    <li>醤油</li>
+</ul>
+
+<hr />
+
+<b>Time:</b> 
+
+<ul>
+    <li>(一日) - Marinate 肉</li>
+    <li>30 分 - 肉を揚げる</li>
+</ul>
+
+<hr />
+
+<b>Thoughts:</b>
+
+
+Similar to fried chicken, but this one has more taste because of the marination. Also, we don't have to waste a bunch of stuff for breading, since we just mix the potato starch / flour directly into the bowl we used for marination. Much quicker process than the friend chicken. Need to work on the marination a bit tho, the flavor was good, but not my favorite.
+
+<hr />
+
+<b>Tier:</b> S
+
+<hr />
+
+<b>Pictures:</b> 
+
+Chicken Wing #1
+
+![karaage-1](/assets/images/karaage-1.jpg)
+
+Chicken Wing #2
+
+![karaage-2](/assets/images/karaage-2.jpg)
+
+Chicken Tenderloin
+
+![karaage-3](/assets/images/karaage-3.jpg)
+
+I also tried a mayo/mustard/honey sauce for dipping. Was very fatty
+
+![karaage-sauce](/assets/images/karaage-sauce.jpg)

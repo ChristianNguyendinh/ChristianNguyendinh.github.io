@@ -68,3 +68,11 @@ I forgot to take the picture until I was halfway thru:
 
 
 ![carbonara](/assets/images/carbonara_sad.jpg)
+
+<hr />
+
+01/17/2019 Attempt:
+
+Still need to work on what the eggs drying up
+
+![carbonara](/assets/images/carbonara-2.jpg)
