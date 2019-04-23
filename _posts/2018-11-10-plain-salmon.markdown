@@ -55,6 +55,8 @@ Basically a meal for babies. Probably the most low effort meal I know. But salmo
 
 I ate it with cauliflower and carrots. But i guess rice is a more traditional choice
 
-![carbonara](/assets/images/salmon_unfinished.jpg)
+![salmon 1](/assets/images/salmon_unfinished.jpg)
 
-![carbonara](/assets/images/salmon_finished.jpg)
+![salmon 2](/assets/images/salmon_finished.jpg)
+
+![salmon 3](/assets/images/salmon-2.jpg)

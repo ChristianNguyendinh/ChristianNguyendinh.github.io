@@ -1,0 +1,73 @@
+---
+layout: post
+title:  "豚カツ"
+date:   2019-01-21 15:52:06 -0400
+categories: food
+---
+<hr />
+
+<b>Source:</b>
+
+
+<a href="https://www.justonecookbook.com/tonkatsu/" target="_blank">Source</a>
+
+<hr />
+
+<b>Tools:</b>
+
+<ul>
+    <li>Pot for frying or rack for baking</li>
+    <li>Plates and stuff for breading</li>
+</ul>
+
+<hr />
+
+<b>Ingredients:</b>
+
+<ul>
+    <li>Pork (chicken or other thin cut meats work too)</li>
+    <li>Salt</li>
+    <li>Pepper</li>
+    <li>Flour</li>
+    <li>Egg</li>
+    <li>Panko</li>
+    <li>Sauce</li>
+    <ul>
+        <li>Ketchup</li>
+        <li>Worcestshire Sauce</li>
+        <li>Oyster Sauce</li>
+        <li>Sugar</li>
+    </ul>
+</ul>
+
+<hr />
+
+<b>Time:</b> 
+
+<ul>
+    <li>5 M - Sauce</li>
+    <li>20 M - Bread</li>
+    <li>30 M - Fry / Bake</li>
+</ul>
+
+<hr />
+
+<b>Thoughts:</b>
+
+Pretty good. Better fried because it is much crunchier. It is the best way to cook pork that I've done so far. Also, use a big knife to slice at the end to get through the breading, and don't fry at too low of a temperature.
+
+<hr />
+
+<b>Tier:</b> B. Lots of ingredients and hassle to make. But tastes solid.
+
+<hr />
+
+<b>Pictures:</b> 
+
+Baked:
+
+![tonkatsu-baked](/assets/images/tonkatsu-baked.jpg)
+
+Fried:
+
+![tonkatsu-fried](/assets/images/tonkatsu-fried.jpg)
