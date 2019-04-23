@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "親子丼"
+title:  "Teriyaki Wings"
 date:   2019-02-09 15:52:06 -0400
 categories: food
 ---
