@@ -1,0 +1,66 @@
+---
+layout: post
+title:  "親子丼"
+date:   2019-02-06 15:52:06 -0400
+categories: food
+---
+<hr />
+
+<b>Source:</b>
+
+
+<a href="https://www.justonecookbook.com/oyakodon/" target="_blank">Source</a>
+
+<hr />
+
+<b>Tools:</b>
+
+<ul>
+    <li>Pan</li>
+    <li>Bowl for beating egg</li>
+</ul>
+
+<hr />
+
+<b>Ingredients:</b>
+
+<ul>
+    <li>Chicken (any kind really)</li>
+    <li>Egg</li>
+    <li>Rice</li>
+    <li>Onion</li>
+    <li>Seasoning</li>
+    <ul>
+        <li>Dashi</li>
+        <li>Mirin</li>
+        <li>Sake</li>
+        <li>Soy Sauce</li>
+        <li>Sugar</li>
+    </ul>
+</ul>
+
+<hr />
+
+<b>Time:</b> 
+
+<ul>
+    <li>(night before) - Cook rice</li>
+    <li>15 M - Cut / Cook Chicken</li>
+    <li>5 M - Combine</li>
+</ul>
+
+<hr />
+
+<b>Thoughts:</b>
+
+It honestly wasn't that good. Maybe because I didn't have dashi. But it just tasted like rice, egg, chicken, and soy sauce. I think I just need to do it better next time...
+
+<hr />
+
+<b>Tier:</b> D.
+
+<hr />
+
+<b>Pictures:</b> 
+
+![oyakodon-1](/assets/images/oyakodon-1.jpg)
