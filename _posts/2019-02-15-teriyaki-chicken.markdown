@@ -26,7 +26,6 @@ It's pretty simpile
     <li>Chicken Rice</li>
     <li>Rice</li>
     <li>Teriyaki Sauce</li>
-    </ul>
 </ul>
 
 <hr />
