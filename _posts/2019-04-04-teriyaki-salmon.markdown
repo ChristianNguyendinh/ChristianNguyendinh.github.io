@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Teriyaki Salmon"
+title:  "照り焼き鮭"
 date:   2019-04-04 15:52:06 -0400
 categories: food
 ---
@@ -23,9 +23,10 @@ categories: food
 <b>Ingredients:</b>
 
 <ul>
-    <li>Salmon</li>
-    <li>Salt and Pepper</li>
-    <li>Teriyaki Sauce</li>
+    <li>鮭</li>
+    <li>塩</li>
+    <li>胡椒</li>
+    <li>照り焼き</li>
 </ul>
 
 <hr />
