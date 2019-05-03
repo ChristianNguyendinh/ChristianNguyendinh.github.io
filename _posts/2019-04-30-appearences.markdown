@@ -9,7 +9,7 @@ categories: japanese
 
 Wow. What a disaster. Will have to go back and proofread / do more research on this.
 
-We have not learned this at all. Does not seem too difficult tho. Actually, this is pretty hard. It's not clicking with me, we will probably have to revisit these links. Looks like "seems like" (:)) has a ton of different meanings.
+We have not learned this at all. Does not seem too difficult tho. Actually, this is pretty hard. It's not clicking with me, we will probably have to revisit these links. Looks like "seems like" (:)) has a ton of different meanings. So many implications too. IdK when to use which...
 
 Sources:
 
@@ -117,9 +117,9 @@ You can also use it with `よう` (by modifying it with `の` for nominals). `�
 
 Hearsay - information received from others that one cannot substantiate; a rumor
 
-The issue is, all those past forms can be used to describe hearsay.
+The issue is, all those past forms can be used to describe hearsay. I guess in the end, hearsay is less certain so maybe its a form of "seems like" or "appears to be" with the added info that its based on what you've heard.
 
-<u>Structure: </u> same as before, except for `そう`, where you just attach the plan style A/V, and it must end with a copula. Also, there is only present tense for this usage... If you want to be specific or can substantiate where you heard it from, you can use `と 言う` from class.
+<u>Structure: </u> same as before, except for `そう`, where you just attach the plain predicate, and it must end with a copula. Also, there is only present tense for this usage... If you want to be specific or can substantiate where you heard it from, you can use `と 言う` from class.
 
 <u>Use: </u> To express things you have heard.
 
@@ -127,26 +127,26 @@ The issue is, all those past forms can be used to describe hearsay.
 
 `明日だそうだ` - "Seems to be tomorrow (from what I've heard)"
 
+`彼女の家はすごく大きいみたいです` - "Her house seems really big (from what I've heard/seen)"
+
 <hr />
 <h3>Differences</h3>
 
 <u>Similarity / Appearence</u>
 
-- `よう` is a more formal/stiff version of `みたい`. Both are na-nominals.
+- `よう` is a more formal/stiff version of `みたい`. Both are na-nominals. Possibly implication of appears to be X, not saying it is.
 - `みたい` has possible implication that it looks like X, but actually is not. Can be negative.
-- `そう` is more of an educated guess. Cannot be used with no-nominals.
 - `よう` / `みたい` is used for things you describe a current state based on what you see
+- `そう` is more of an educated guess. Cannot be used with no-nominals.
 - `そう` is used for predicting a possibility by the current state
 - `らしい` is for implicated that it appears a certain way due to behavior. Also for the way things are suppose to be.
 - `っぽい` is just very casual similarity.
 
 <u>Hearsay</u>
 
-- `そう` doesn't have anything to do with how you feel or think. More certain that what you've said is true.
+- `そう` doesn't have anything to do with how you feel or think. More certain that what you've said is true. More of a quote of what you've heard.
 - `らしい` is for things that are suppose to be in a certain way based on what you've heard. The hearing part is less specific/certain than `そう`. More gossipy. Only based on things you've heard, while others can be seen as well.
-- `よう` is just more formal/stiff than `みたい`.
-- `よう` / `みたい` is used for things you describe a current state based on what you see
-- `そう` is used for predicting a possibility by the current state
+- `よう` is just more formal/stiff than `みたい`. Seems less common than the others for hearsay
 
 
 <br />
